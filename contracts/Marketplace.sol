@@ -14,7 +14,7 @@ contract Marketplace is ERC721URIStorage, ReentrancyGuard {
   Counters.Counter private _itemsSold;
 
   address payable owner;
-  uint256 listingPrice = 0.00082 ether;
+  uint256 listingPrice = 0.00082 matic;
 
   struct MarketItem {
     uint256 tokenId;
