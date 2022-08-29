@@ -191,7 +191,22 @@ const supportedChains = [
       balance: ''
     }
   },
-
+  {
+    name: 'Polygon Mainnet',
+    short_name: 'matic',
+    chain: 'smartchain',
+    network: 'polygon',
+    chain_id: 137,
+    network_id: 137,
+    rpc_url: 'https://rpc-polygon.com/',
+    native_currency: {
+      symbol: 'MATIC',
+      name: 'MATIC',
+      decimals: '18',
+      contractAddress: '',
+      balance: ''
+    }
+  }
   {
     name: 'Polygon Mumbai',
     short_name: 'matic',
