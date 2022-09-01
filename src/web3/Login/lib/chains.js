@@ -206,7 +206,7 @@ const supportedChains = [
       contractAddress: '',
       balance: ''
     }
-  }
+  },
   {
     name: 'Polygon Mumbai',
     short_name: 'matic',
